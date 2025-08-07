@@ -5,7 +5,7 @@ import Productpage from "./pages/Productpage";
 import Contactpage from "./pages/Contactpage";
 import Servicepage from "./pages/Servicepage";
 import Aboutpage from "./pages/Aboutpage";
-import Descriptionpage from "./pages/descriptionpage";
+import Descriptionpage from "./pages/Descriptionpage";
 import Cartpage from "./pages/Cartpage";
 
 function Allroutes() {
