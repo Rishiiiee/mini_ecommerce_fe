@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Hero section */
+.hero-section {
+    background-color: #007BFF;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    flex-grow: 1;
+}
+
+.feature-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
